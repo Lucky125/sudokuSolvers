@@ -29,5 +29,8 @@ For this project, I used files from [t-dillon](https://github.com/t-dillon/tdoku
 - Any line that starts with # will be ignored.
 
 Furthermore, any file that starts with a period (i.e. .sudoku_file) will be ignored by the program.
+<<<<<<< HEAD
 
 Simply place the files into the sudoku_grids folder, and the program should detect them.
+=======
+>>>>>>> 75155d6922354207f851527d215a05f3a59cfff9

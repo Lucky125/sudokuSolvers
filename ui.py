@@ -13,7 +13,9 @@ def get_random_sudoku_grid():
     for _ in file:
         linenum += 1
     sudoku = None
-    while (sudoku == None):
+    attempt = 0
+    while (sudoku == None and attempt < 100):
+        attempt += 1
         chosenline = random.randint(0,linenum-1)
         file.seek(0)
         for _ in range(chosenline):
