@@ -1,0 +1,9 @@
+# Sudoku Files
+
+For this project, I used files from [t-dillon](https://github.com/t-dillon/tdoku/blob/master/data.zip). You are, of course, free to use any file you find. The files need to be in the following format:
+
+- Each line in the file represents one sudoku,
+- A sudoku should be stored in 'reading order'; the digits of a sudoku grid should be written from left to right, then top to bottom,
+- Any symbol, or indeed a collection of symbols, can be used to represent an empty space,
+- No symbol can or should be used to represent the end of a row/block,
+- Any line that starts with # will be ignored.
