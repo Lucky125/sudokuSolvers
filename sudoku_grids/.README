@@ -7,3 +7,7 @@ For this project, I used files from [t-dillon](https://github.com/t-dillon/tdoku
 - Any symbol, or indeed a collection of symbols, can be used to represent an empty space,
 - No symbol can or should be used to represent the end of a row/block,
 - Any line that starts with # will be ignored.
+
+Furthermore, any file that starts with a period (i.e. .sudoku_file) will be ignored by the program.
+
+Simply place the files into this folder, and the program should detect them.
