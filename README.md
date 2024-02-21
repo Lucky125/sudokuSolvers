@@ -1,6 +1,6 @@
 # Lucky's Sudoku Solver
 
-This repo contains several algorithms to solve sudokus. The code was originally made for [an article on Lucky's Corner](https://www.luckys-corner.com/2024/02/sudoku/).
+This repo contains several algorithms to solve sudokus. The code was originally made for [an article on Lucky's Corner](https://www.luckys-corner.com/2024/2/sudoku/).
 
 # Dependencies
 
@@ -27,3 +27,5 @@ For this project, I used files from [t-dillon](https://github.com/t-dillon/tdoku
 - Any symbol, or indeed a collection of symbols, can be used to represent an empty space,
 - No symbol can or should be used to represent the end of a row/block,
 - Any line that starts with # will be ignored.
+
+Furthermore, any file that starts with a period (i.e. .sudoku_file) will be ignored by the program.
